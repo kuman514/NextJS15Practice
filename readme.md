@@ -43,3 +43,4 @@
 
 ## 내용 메모
 1. [왜 Next.js를 사용하는가?](https://github.com/kuman514/nextjs15practice/blob/main/memo/1%20-%20why%20nextjs.md)
+2. [Next.js와 React의 차이](https://github.com/kuman514/nextjs15practice/blob/main/memo/1%20-%20why%20nextjs.md)

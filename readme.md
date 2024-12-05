@@ -40,3 +40,6 @@
 - 출처
   - https://nextjs.org/blog/next-15
   - https://www.heropy.dev/p/n7JHmI
+
+## 내용 메모
+1. [왜 Next.js를 사용하는가?](https://github.com/kuman514/nextjs15practice/blob/main/memo/1%20-%20why%20nextjs.md)

@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import LogoPng from '@/assets/logo.png';
-import MainHeaderBackground from '@/components/main-header-background';
 
+import MainHeaderBackground from './main-header-background';
 import classes from './main-header.module.css';
 
 export default function MainHeader() {

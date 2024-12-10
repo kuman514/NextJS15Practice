@@ -48,3 +48,4 @@
 4. [서버 컴포넌트](https://github.com/kuman514/nextjs15practice/blob/main/memo/4%20-%20server%20component.md)
 5. [Next.js에서의 Anchor](https://github.com/kuman514/nextjs15practice/blob/main/memo/5%20-%20anchor%20in%20nextjs.md)
 6. [보호된 파일명](https://github.com/kuman514/nextjs15practice/blob/main/memo/6%20-%20protected%20file%20names.md)
+7. [레이아웃](https://github.com/kuman514/nextjs15practice/blob/main/memo/7%20-%20layout.md)

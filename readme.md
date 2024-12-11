@@ -50,3 +50,4 @@
 6. [보호된 파일명](https://github.com/kuman514/nextjs15practice/blob/main/memo/6%20-%20protected%20file%20names.md)
 7. [레이아웃](https://github.com/kuman514/nextjs15practice/blob/main/memo/7%20-%20layout.md)
 8. [Next.js에서의 Image](https://github.com/kuman514/nextjs15practice/blob/main/memo/8%20-%20image%20in%20nextjs.md)
+9. [클라이언트 컴포넌트](https://github.com/kuman514/nextjs15practice/blob/main/memo/9%20-%20client%20component.md)

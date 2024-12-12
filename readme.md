@@ -51,3 +51,4 @@
 7. [레이아웃](https://github.com/kuman514/nextjs15practice/blob/main/memo/7%20-%20layout.md)
 8. [Next.js에서의 Image](https://github.com/kuman514/nextjs15practice/blob/main/memo/8%20-%20image%20in%20nextjs.md)
 9. [클라이언트 컴포넌트](https://github.com/kuman514/nextjs15practice/blob/main/memo/9%20-%20client%20component.md)
+10. [Next.js에서 한번 방문했던 페이지가 빨리 로딩되는 이유](https://github.com/kuman514/nextjs15practice/blob/main/memo/10%20-%20why%20visited%20nextjs%20page%20loads%20way%20faster.md) (내용 추가 예정)

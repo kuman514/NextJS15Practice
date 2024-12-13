@@ -7,6 +7,6 @@ export async function getMeals() {
   await new Promise((resolve) => {
     setTimeout(resolve, 2000);
   });
-
+  // throw new Error('Failed to fetch meals');
   return database.prepare('SELECT * FROM meals').all();
 }

@@ -53,6 +53,7 @@ export default function ImagePicker({ label, name }) {
           accept="image/png, image/jpeg"
           name={name}
           onChange={handleOnChange}
+          required
         />
         {/**
          * Set button's type to "button" to prevent submitting form.

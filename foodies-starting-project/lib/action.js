@@ -1,5 +1,7 @@
 'use server';
 
+import { redirect } from 'next/navigation';
+
 import { saveMeal } from './meals';
 
 export async function shareMealAction(formData) {
@@ -13,4 +15,5 @@ export async function shareMealAction(formData) {
   };
 
   await saveMeal(meal);
+  redirect('/meals');
 }

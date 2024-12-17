@@ -54,3 +54,4 @@
 10. [Next.js에서 한번 방문했던 페이지가 빨리 로딩되는 이유](https://github.com/kuman514/nextjs15practice/blob/main/memo/10%20-%20why%20visited%20nextjs%20page%20loads%20way%20faster.md) (내용 추가 예정)
 11. [Next.js 에러 처리 방법](https://github.com/kuman514/nextjs15practice/blob/main/memo/11%20-%20how%20to%20handle%20an%20error.md)
 12. [서버 액션](https://github.com/kuman514/nextjs15practice/blob/main/memo/12%20-%20server%20action.md)
+13. [배포 환경](https://github.com/kuman514/nextjs15practice/blob/main/memo/13%20-%20production%20environment.md)

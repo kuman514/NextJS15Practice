@@ -1,10 +1,24 @@
+'use client';
+
+import { useActionState } from 'react';
+
 import ImagePicker from '@/components/meals/image-picker';
 import { shareMealAction } from '@/lib/action';
 
 import MealsFormSubmit from '@/components/meals/meals-form-submit';
+
 import classes from './page.module.css';
 
 export default function MealsSharePage() {
+  /**
+   * useActionState returns...
+   * - most recent response from server action,
+   * - or initial state if never got response.
+   */
+  const [state, formAction] = useActionState(shareMealAction, {
+    message: null,
+  });
+
   return (
     <>
       <header className={classes.header}>
@@ -14,7 +28,7 @@ export default function MealsSharePage() {
         <p>Or any other meal you feel needs sharing!</p>
       </header>
       <main className={classes.main}>
-        <form className={classes.form} action={shareMealAction}>
+        <form className={classes.form} action={formAction}>
           <div className={classes.row}>
             <p>
               <label htmlFor="name">Your name</label>
@@ -43,6 +57,7 @@ export default function MealsSharePage() {
             ></textarea>
           </p>
           <ImagePicker label="Images" name="image" />
+          {state.message && <p>{state.message}</p>}
           <p className={classes.actions}>
             <MealsFormSubmit />
           </p>

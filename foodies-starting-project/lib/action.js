@@ -1,8 +1,8 @@
 'use server';
 
-export async function shareMealAction(formData) {
-  'use server';
+import { saveMeal } from './meals';
 
+export async function shareMealAction(formData) {
   const meal = {
     title: formData.get('title'),
     summary: formData.get('summary'),
@@ -10,8 +10,7 @@ export async function shareMealAction(formData) {
     image: formData.get('image'),
     creator: formData.get('name'),
     creatorEmail: formData.get('email'),
-    mealId: 'wiener-schnitzel',
   };
 
-  console.log(meal);
+  await saveMeal(meal);
 }

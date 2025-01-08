@@ -1,5 +1,7 @@
 'use server';
 
+import { createUser } from '@/lib/user';
+
 export async function signup(prevState, formData) {
   const email = formData.get('email');
   const password = formData.get('password');
@@ -17,4 +19,10 @@ export async function signup(prevState, formData) {
   if (Object.keys(errors).length > 0) {
     return { errors };
   }
+
+  /**
+   * @todo
+   * Hashfy password, since a password should NEVER be stored in a plain text.
+   */
+  createUser(email, password);
 }

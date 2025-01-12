@@ -1,5 +1,6 @@
 import { BetterSqlite3Adapter } from '@lucia-auth/adapter-sqlite';
 import { Lucia } from 'lucia';
+import { cookies } from 'next/headers';
 
 import db from './db';
 
@@ -17,3 +18,18 @@ const lucia = new Lucia(adapter, {
     },
   },
 });
+
+export async function createAuthSession(userId) {
+  const session = await lucia.createSession(userId, {});
+  const sessionCookie = lucia.createSessionCookie(session.id);
+  /**
+   * Check [Application] -> [Storage] -> [Cookies] -> the current page URL in the developer tools.
+   * You can see the cookie that contains the session ID.
+   * And the header on every request sent contains cookie that has authentication session ID.
+   */
+  (await cookies()).set(
+    sessionCookie.name,
+    sessionCookie.value,
+    sessionCookie.attributes
+  );
+}

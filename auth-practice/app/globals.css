@@ -106,11 +106,19 @@ ul {
   margin: 2rem auto;
 }
 
+#auth-header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
 #auth-header p {
   font-size: 1.25rem;
 }
 
-#auth-header button {
+#auth-header button,
+#auth-header a {
   font: inherit;
   cursor: pointer;
   padding: 0.5rem 1.5rem;
@@ -120,8 +128,14 @@ ul {
   border-radius: 3px;
 }
 
+#auth-header a {
+  text-decoration: none;
+}
+
 #auth-header button:hover,
-#auth-header button:active {
+#auth-header button:active,
+#auth-header a:hover,
+#auth-header a:active {
   background-color: #5f2a8a;
 }
 

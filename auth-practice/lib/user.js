@@ -11,3 +11,8 @@ export function getUserByEmail(email) {
   const result = db.prepare('SELECT * FROM users WHERE email = ?').get(email);
   return result;
 }
+
+export function getUserById(userId) {
+  const result = db.prepare('SELECT * FROM users WHERE id = ?').get(userId);
+  return result;
+}

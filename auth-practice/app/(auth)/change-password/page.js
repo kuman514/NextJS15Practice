@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
 
+import DeleteUserForm from '@/components/delete-form';
 import ChangePasswordForm from '@/components/password-form';
 import { verifyAuth } from '@/lib/auth';
 import { getUserById } from '@/lib/user';
@@ -17,5 +18,10 @@ export default async function ChangePasswordPage() {
     return redirect('/');
   }
 
-  return <ChangePasswordForm email={userInfo.email} />;
+  return (
+    <>
+      <ChangePasswordForm email={userInfo.email} />
+      <DeleteUserForm userId={result.user.id} />
+    </>
+  );
 }

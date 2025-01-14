@@ -23,3 +23,8 @@ export function changePasswordByEmail(email, password) {
     .run(password, email);
   return result;
 }
+
+export function deleteUserById(userId) {
+  const result = db.prepare('DELETE FROM users WHERE id = ?').run(userId);
+  return result;
+}

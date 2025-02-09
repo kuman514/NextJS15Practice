@@ -55,4 +55,5 @@
 11. [Next.js 에러 처리 방법](https://github.com/kuman514/nextjs15practice/blob/main/memo/11%20-%20how%20to%20handle%20an%20error.md)
 12. [서버 액션](https://github.com/kuman514/nextjs15practice/blob/main/memo/12%20-%20server%20action.md)
 13. [배포 환경](https://github.com/kuman514/nextjs15practice/blob/main/memo/13%20-%20production%20environment.md)
-14. [인증의 작동 원리](https://github.com/kuman514/nextjs15practice/blob/main/memo/13%20-%20how%20authentication%20works.md)
+14. [인증의 작동 원리](https://github.com/kuman514/nextjs15practice/blob/main/memo/14%20-%20how%20authentication%20works.md)
+15. [Hydration 에러](https://github.com/kuman514/nextjs15practice/blob/main/memo/15%20-%20hydration%20error.md)

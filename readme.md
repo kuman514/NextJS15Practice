@@ -57,3 +57,4 @@
 13. [배포 환경](https://github.com/kuman514/nextjs15practice/blob/main/memo/13%20-%20production%20environment.md)
 14. [인증의 작동 원리](https://github.com/kuman514/nextjs15practice/blob/main/memo/14%20-%20how%20authentication%20works.md)
 15. [Hydration 에러](https://github.com/kuman514/nextjs15practice/blob/main/memo/15%20-%20hydration%20error.md)
+15. [XSS와 SQL Injection](https://github.com/kuman514/nextjs15practice/blob/main/memo/16%20-%20cross%20site%20scripting%20and%20sql%20injection.md)
